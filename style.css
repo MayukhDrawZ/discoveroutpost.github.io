@@ -1,0 +1,988 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: scot;
+    src: url(/Typo\ Grotesk\ Demo.otf);
+}
+@font-face {
+    font-family: thinfont;
+    src: url(/Typo\ Grotesk\ Thin\ Demo.otf);
+}
+
+
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: #F9F9F9;
+    display: flex;
+    flex-direction: column;
+ min-height: 100vh;
+ 
+   
+
+}
+
+/*-------MISCELLANEOUS START---------*/
+#main{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+ width: 100%;
+}
+
+ 
+
+.sec-text:hover{
+    text-decoration: underline;
+   
+
+}
+
+
+
+   
+
+/*-------MISCELLANEOUS ENDS---------*/
+
+
+
+/*---------NAVBAR STARTS---------*/
+.navbar{
+    background-color: transparent;
+    width: 100%;
+    height: 4rem;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 28rem;
+
+
+  
+}
+.logo{
+    font-size: 30px;
+    float: left;
+    margin-left: 2rem;
+   
+}
+
+/*---------NAVBAR ENDS---------*/
+
+
+
+
+
+
+
+
+/*---------PAGE 1 STARTS---------*/
+#page1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 0.5px solid  #c9c5c5;
+   
+    
+    
+}
+#page1 h1{
+    color: #000;
+    font-size: 83px;
+     font-family: scot; 
+     font-weight: 250;
+    
+ 
+}
+#page1 h5{
+    color: #000;
+    font-size: 15px;
+     font-family: scot; 
+     text-align: right;
+    
+ 
+}
+.top-text{
+    margin-top: 6rem;
+    margin-right: 4rem;
+    
+}
+#page1 h4{
+    color: #000;
+    font-size: 28px;
+     font-family: scot; 
+
+    
+ 
+}
+#page1 h4 span{
+    color: #000;
+    font-size: 28px;
+     font-family: thinfont; 
+     font-weight: 800;
+
+
+    
+ 
+}
+
+#page1 h1 span{
+    color: #000;
+    font-size: 83px;
+     font-family: thinfont; 
+     font-weight: 100;
+}
+.main-text{
+    margin: 4rem 0 0rem 2rem;
+    
+  
+   
+}
+.main-text2{
+    margin: 4rem 0 0rem 2rem;
+    display: none;
+
+    
+   
+   
+}
+#page1 img{
+ 
+    height: 460px;
+    width: 1010px;
+   
+     margin-left: 2rem; 
+
+    
+
+}
+.vid{
+  display: flex;
+  flex-direction: row;
+  gap: 0rem;
+}
+.vid p{
+    font-family: scot;
+    color: #000;
+
+}
+#second{
+    font-family: scot;
+    color: #000;
+    font-size: 12px;
+    font-weight: 900;
+    line-height: 3rem;
+
+}
+.sub-cont{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.secondary-text{
+    margin-left: 2rem;
+    margin-right: 4rem;
+
+    margin-bottom: 6rem;
+    margin-top: 4rem;
+
+
+}
+.sub-cont{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+
+}
+
+
+/*---------PAGE 1 ENDS---------*/
+
+
+
+
+/*---------PAGE 2 STARTS---------*/
+#page2{
+ 
+    width: 100%;
+    background-color: #F9F9F9;
+    padding-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 0.5px solid  #c9c5c5;
+    overflow-x: hidden;
+   
+   
+   
+   
+    
+}
+.sub-page2{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 3rem;
+  margin-top: 3rem;
+  margin-right: 15rem;
+ 
+
+}
+.box{
+    
+    margin-right: 4rem;
+}
+.box-img{
+    height: 26rem;
+    width:  24rem;
+   
+   
+   
+}
+.sec-text{
+    text-align: end;
+     margin-top:17rem; 
+}
+.sec-text h3{
+    font-family: scot;
+    color: #000;
+    font-size: 40px;
+    
+}
+
+
+/*---------PAGE 2 ENDS---------*/
+
+/*---------PAGE 3 STARTS---------*/
+#page3{
+ 
+    width: 100%;
+    background-color: #F9F9F9;
+    padding-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 0.5px solid  #c9c5c5;
+    overflow-x: hidden;
+   
+   
+   
+   
+    
+}
+.sub-page3{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+  margin-top: 3rem;
+  margin-left: 15rem;
+ 
+
+}
+.box{
+    
+    margin-right: 4rem;
+}
+.box-img{
+    height: 26rem;
+    width:  24rem;
+   
+   
+   
+}
+.sec-text{
+     text-align: start;
+     margin-top: 17rem; 
+}
+.sec-text h3{
+    font-family: scot;
+    color: #000;
+    font-size: 40px;
+    
+}
+
+/*---------PAGE 3 ENDS---------*/
+
+/*---------PAGE 4 STARTS---------*/
+#page4{
+
+    width: 100%;
+    background-color: #F9F9F9;
+    padding-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+   
+    
+    
+  
+
+   
+   
+    
+}
+.sub-page4{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 3rem;
+  margin-top: 3rem;
+  margin-right: 15rem;
+ 
+ 
+
+}
+.box{
+    
+    margin-right: 4rem;
+}
+.box-img{
+    height: 26rem;
+    width:  24rem;
+   
+   
+   
+}
+.sec-text{
+    text-align: end;
+     margin-top:17rem; 
+}
+.sec-text h3{
+    font-family: scot;
+    color: #000;
+    font-size: 40px;
+    
+}
+
+/*---------PAGE 4 ENDS---------*/
+
+
+
+
+/*-------RESPONSIVE START---------*/
+
+
+
+@media only screen and (min-width:320px) and (max-width:480px){
+  
+    #page1{
+    
+        justify-content: center;
+
+       
+    }
+    .main-text{
+        display: none;
+    }
+    .main-text2{
+        display: inline;
+    }
+    .vid{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .sub-cont{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #page1 img{
+        height: 384px;
+        width: 394px;
+        margin-left: 0;
+      
+    }
+   
+    #page2{
+        align-items: center;
+        justify-content: center;
+        overflow-x: hidden;
+    }
+    #page3{
+        align-items: center;
+        justify-content: center;
+        overflow-x: hidden;
+    }
+    #page4{
+        align-items: center;
+        justify-content: center;
+        overflow-x: hidden;
+        
+    }
+    .box-img{
+        height: 18rem;
+        width: 16rem;
+    }
+     .sub-page2{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-right: 0;
+        gap: 1rem;
+        
+    }
+    .sub-page3{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 0;
+        gap: 1rem;
+
+    }
+    .sub-page4{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-right: 0;
+        gap: 1rem;
+        
+
+    } 
+    .sec-text{
+        margin-top: 0;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width:481px) and (max-width:558px){
+ 
+
+    #page1{
+        
+        justify-content: center;
+
+       
+    }
+    .main-text{
+        display: none;
+    }
+    .main-text2{
+        display: inline;
+    }
+    .vid{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .sub-cont{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #page1 img{
+        height: 384px;
+        width: 470px;
+        margin-left: 0;
+    }
+   
+    #page2{
+        align-items: center;
+        justify-content: center;
+        overflow-x: hidden;
+    }
+    #page3{
+        align-items: center;
+        justify-content: center;
+        overflow-x: hidden;
+    }
+    #page4{
+        align-items: center;
+        justify-content: center;
+        overflow-x: hidden;
+        
+    }
+    .box-img{
+        height: 18rem;
+        width: 16rem;
+    }
+     .sub-page2{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-right: 0;
+        gap: 1rem;
+        
+    }
+    .sub-page3{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 0;
+        gap: 1rem;
+
+    }
+    .sub-page4{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-right: 0;
+        gap: 1rem;
+        
+
+    } 
+    .sec-text{
+        margin-top: 0;
+    }
+
+
+}
+@media only screen and (min-width:559px) and (max-width:655px){
+ 
+
+    #page1{
+        
+        justify-content: center;
+
+       
+    }
+    .main-text{
+        display: none;
+    }
+    .main-text2{
+        display: inline;
+    }
+    .vid{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .sub-cont{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #page1 img{
+        height: 384px;
+        width: 551px;
+        margin-left: 0;
+    }
+   
+    #page2{
+        align-items: center;
+        justify-content: center;
+        overflow-x: hidden;
+    }
+    #page3{
+        align-items: center;
+        justify-content: center;
+        overflow-x: hidden;
+    }
+    #page4{
+        align-items: center;
+        justify-content: center;
+        overflow-x: hidden;
+        
+    }
+    .box-img{
+        height: 18rem;
+        width: 16rem;
+    }
+     .sub-page2{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-right: 0;
+        gap: 1rem;
+        
+    }
+    .sub-page3{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 0;
+        gap: 1rem;
+
+    }
+    .sub-page4{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-right: 0;
+        gap: 1rem;
+        
+
+    } 
+    .sec-text{
+        margin-top: 0;
+    }
+    .secondary-text{
+        margin-right: 2rem;
+    }
+
+
+}
+@media only screen and (min-width:655px) and (max-width:768px){
+ 
+
+    #page1{
+        
+        justify-content: center;
+
+       
+    }
+    .main-text{
+        display: none;
+    }
+    .main-text2{
+        display: inline;
+    }
+    .vid{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .sub-cont{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #page1 img{
+        height: 384px;
+        width: 629px;
+        margin-left: 0;
+    }
+   
+    #page2{
+        align-items: center;
+        justify-content: center;
+        overflow-x: hidden;
+    }
+    #page3{
+        align-items: center;
+        justify-content: center;
+        overflow-x: hidden;
+    }
+    #page4{
+        align-items: center;
+        justify-content: center;
+        overflow-x: hidden;
+        
+    }
+    .box-img{
+        height: 18rem;
+        width: 16rem;
+    }
+     .sub-page2{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-right: 0;
+        gap: 1rem;
+        
+    }
+    .sub-page3{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 0;
+        gap: 1rem;
+
+    }
+    .sub-page4{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-right: 0;
+        gap: 1rem;
+        
+
+    } 
+    .sec-text{
+        margin-top: 0;
+    }
+    .secondary-text{
+        margin-right: 2rem;
+    }
+
+
+}
+@media only screen and (min-width:769px) and (max-width:896px){
+ 
+
+    #page1{
+        
+        justify-content: center;
+
+       
+    }
+    .main-text{
+        display: none;
+    }
+    .main-text2{
+        display: inline;
+    }
+    .vid{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .sub-cont{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #page1 img{
+        height: 384px;
+        width: 753px;
+        margin-left: 0;
+    }
+   
+    #page2{
+        align-items: center;
+        justify-content: center;
+        overflow-x: hidden;
+    }
+    #page3{
+        align-items: center;
+        justify-content: center;
+        overflow-x: hidden;
+    }
+    #page4{
+        align-items: center;
+        justify-content: center;
+        overflow-x: hidden;
+        
+    }
+    .box-img{
+        height: 18rem;
+        width: 16rem;
+    }
+     .sub-page2{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-right: 0;
+        gap: 1rem;
+        
+    }
+    .sub-page3{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 0;
+        gap: 1rem;
+
+    }
+    .sub-page4{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-right: 0;
+        gap: 1rem;
+        
+
+    } 
+    .sec-text{
+        margin-top: 0;
+    }
+    .secondary-text{
+        margin-right: 2rem;
+    }
+
+
+}
+
+@media only screen and (min-width:897px) and (max-width:1000px){
+ 
+
+    #page1{
+        
+        justify-content: center;
+
+       
+    }
+    .main-text{
+        display: none;
+    }
+    .main-text2{
+        display: inline;
+    }
+    .vid{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .sub-cont{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #page1 img{
+        height: 384px;
+        width: 860px;
+        margin-left: 0;
+    }
+   
+    #page2{
+        align-items: center;
+        justify-content: center;
+        overflow-x: hidden;
+    }
+    #page3{
+        align-items: center;
+        justify-content: center;
+        overflow-x: hidden;
+    }
+    #page4{
+        align-items: center;
+        justify-content: center;
+        overflow-x: hidden;
+        
+    }
+    .box-img{
+        height: 18rem;
+        width: 16rem;
+    }
+     .sub-page2{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-right: 0;
+        gap: 1rem;
+        
+    }
+    .sub-page3{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 0;
+        gap: 1rem;
+
+    }
+    .sub-page4{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-right: 0;
+        gap: 1rem;
+        
+
+    } 
+    .sec-text{
+        margin-top: 0;
+    }
+    .secondary-text{
+        margin-right: 2rem;
+    }
+
+
+}
+@media only screen and (min-width: 930px) {
+    .main-text{
+        display: inline;
+        
+    }
+    .main-text2{
+        display: none;
+
+    }
+
+}
+@media only screen and (min-width:1001px) and (max-width:1068px){
+ 
+
+    #page1{
+        
+        justify-content: center;
+
+       
+    }
+    .main-text{
+        display: none;
+    }
+    .main-text2{
+        display: inline;
+    }
+    .vid{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .sub-cont{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #page1 img{
+        height: 384px;
+        width: 968px;
+        margin-left: 0;
+    }
+   
+    #page2{
+        align-items: center;
+        justify-content: center;
+        overflow-x: hidden;
+    }
+    #page3{
+        align-items: center;
+        justify-content: center;
+        overflow-x: hidden;
+    }
+    #page4{
+        align-items: center;
+        justify-content: center;
+        overflow-x: hidden;
+        
+    }
+    .box-img{
+        height: 18rem;
+        width: 16rem;
+    }
+     .sub-page2{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-right: 0;
+        gap: 1rem;
+        
+    }
+    .sub-page3{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 0;
+        gap: 1rem;
+
+    }
+    .sub-page4{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-right: 0;
+        gap: 1rem;
+        
+
+    } 
+    .sec-text{
+        margin-top: 0;
+    }
+    .secondary-text{
+        margin-right: 2rem;
+    }
+
+
+}
+
+
+/*-------RESPONSIVE ENDS---------*/
+
+
+
+
+
