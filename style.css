@@ -45,6 +45,9 @@ body{
 
 
 
+
+
+
    
 
 /*-------MISCELLANEOUS ENDS---------*/
@@ -369,7 +372,100 @@ body{
 
 
 
-@media only screen and (min-width:320px) and (max-width:480px){
+@media only screen and (min-width:320px) and (max-width:451px){
+    body{
+        overflow-x: hidden;
+    }
+  
+    #page1{
+    
+        justify-content: center;
+
+       
+    }
+    .main-text{
+        display: none;
+    }
+    .main-text2{
+        display: inline;
+        margin-left: 0;
+    }
+    .vid{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .sub-cont{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #page1 img{
+        height: 384px;
+        width: 303px;
+        margin-left: 0;
+      
+    }
+   
+    #page2{
+        align-items: center;
+        justify-content: center;
+        overflow-x: hidden;
+    }
+    #page3{
+        align-items: center;
+        justify-content: center;
+        overflow-x: hidden;
+    }
+    #page4{
+        align-items: center;
+        justify-content: center;
+        overflow-x: hidden;
+        
+    }
+    .box-img{
+        height: 18rem;
+        width: 16rem;
+    }
+     .sub-page2{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-right: 0;
+        gap: 1rem;
+        
+    }
+    .sub-page3{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 0;
+        gap: 1rem;
+
+    }
+    .sub-page4{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-right: 0;
+        gap: 1rem;
+        
+
+    } 
+    .sec-text{
+        margin-top: 0;
+    }
+
+
+}
+
+
+
+
+@media only screen and (min-width:452px) and (max-width:480px){
+    body{
+        overflow-x: hidden;
+    }
   
     #page1{
     
@@ -395,7 +491,7 @@ body{
     }
     #page1 img{
         height: 384px;
-        width: 394px;
+        width: 419px;
         margin-left: 0;
       
     }
@@ -460,6 +556,9 @@ body{
 
 
 @media only screen and (min-width:481px) and (max-width:558px){
+    body{
+        overflow-x: hidden;
+    }
  
 
     #page1{
@@ -543,6 +642,9 @@ body{
 }
 @media only screen and (min-width:559px) and (max-width:655px){
  
+    body{
+        overflow-x: hidden;
+    }
 
     #page1{
         
@@ -626,7 +728,10 @@ body{
 
 
 }
-@media only screen and (min-width:655px) and (max-width:768px){
+@media only screen and (min-width:656px) and (max-width:768px){
+    body{
+        overflow-x: hidden;
+    }
  
 
     #page1{
@@ -902,12 +1007,12 @@ body{
 
        
     }
-    .main-text{
+    /* .main-text{
         display: none;
     }
     .main-text2{
         display: inline;
-    }
+    } */
     .vid{
         flex-direction: column;
         align-items: center;
